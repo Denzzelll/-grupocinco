@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.logo {
+    width: 130px;
+    margin-inline: 150px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.col {
+    text-align: center;
+}
+
+h1 {
+    font-size: 6vh;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    text-align: center;
+}
+.card {
+    width: 400px;
+    background-color: #987554;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+} 
+.card img {
+    width: 100%;
+    height: 30vh;
+}
+.card-content {
+    padding: 5px;
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: auto;
+}
+.card-content p{
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.card-content .btn{
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.profile p {
+    font-size: 30px;
+}
+
+.design{
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.body1 {
+        height: 100vh;
+        background: url(images/1background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+  .neon-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #967d69, #967d69);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+                0 0 20px rgba(255, 255, 255, 0.5),
+                0 0 40px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+    outline: none;
+  }
+
+  .neon-button:hover {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 1),
+                0 0 10px rgba(255, 255, 255, 1),
+                0 0 20px rgba(255, 255, 255, 1);
+  }
+    .button-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+.body1:before {
+  background-color: rgba(0, 0, 0, 0.1); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.back {
+    background-color: beige;
+
+}
+ TOP
